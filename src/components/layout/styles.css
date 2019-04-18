@@ -4,11 +4,10 @@
 }
 body{
     font-family: sans-serif;
-    background: rgb(134, 134, 134);
 }
 .header{
     width: 100%;
-
+    background: #eee;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +39,10 @@ body{
 }
 .header .botones ul li a{
     font-size: 35px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+.header .botones ul li a:hover{
+    border-bottom: 5px solid #000;
 }

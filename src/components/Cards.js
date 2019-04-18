@@ -1,15 +1,18 @@
 import React,{Component} from 'react'
 import {Link} from 'react-router-dom'
+import './styles/cards.css'
 
-class Card extends Component{
+class Cards extends Component{
     render(){
         return(
-            <div className="tarjeta">
+            <div className="tarjetas">
                 <div className="img">
-                    <img src={this.props.img} alt="carátula"/>
+                    <img src={this.props.img} className="fondo" alt="fondo"/>
+                    <img src={this.props.img} alt="carátula" className="caratula"/>
+                    
                 </div>
                 <div className="tarjeta-body">
-                    <h2 className="titulo">{this.props.titulo}</h2>
+                    <h2 className="titulo">{this.props.namtituloe}</h2>
                     <p className="sinopsis">{this.props.sinopsis}</p>
                 </div>
                 <div className="botones">
@@ -23,4 +26,4 @@ class Card extends Component{
         )
     }
 }
-export default Card
+export default Cards
