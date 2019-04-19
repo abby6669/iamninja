@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .logo{
+    width: 10%;
+    padding: 15px;
+    display: inline-block;
+}
+.header .logo img{
+    width: 100%;
+}
+.header .botones{
+    display: inline-block;
+    padding: 15px;
+    width: 83%;
+}
+.header .botones ul{
+    text-align: right;
+    height: 100%;
+    top: 0;
+}
+.header .botones ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+.header .botones ul li a{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+.header .botones ul li a:hover{
+    border-bottom: 5px solid #000;
+}
