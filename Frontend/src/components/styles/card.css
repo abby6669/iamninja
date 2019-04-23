@@ -25,6 +25,10 @@
 .tarjeta .tarjeta-body .titulo{
     height: 56px;
 }
+.tarjeta .tarjeta-body .tema{
+    font-size: 20px;
+    font-weight: bold;
+}
 .tarjeta .tarjeta-body ul{
     width: 100%;
     text-align: justify;

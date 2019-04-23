@@ -12,8 +12,7 @@ class Cards extends Component{
                     
                 </div>
                 <div className="tarjeta-body">
-                    <h2 className="titulo">{this.props.namtituloe}</h2>
-                    <p className="sinopsis">{this.props.sinopsis}</p>
+                    <h2 className="titulo">{this.props.name}</h2>
                 </div>
                 <div className="botones">
                     <div className="informacion">

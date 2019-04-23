@@ -10,11 +10,14 @@
     "mongoose": "^5.5.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-paginate": "^6.3.0",
+    "react-player": "^1.11.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "react-stripe-elements": "^2.0.3",
     "stripe": "^6.28.0",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "video-react": "^0.13.6"
   },
   "scripts": {
     "start": "react-scripts start",

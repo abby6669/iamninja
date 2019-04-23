@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
+const cors = require('cors')
 const PORT = 8000;
 const URL = 'mongodb+srv://moshab97:123456abc@proyectocintaroja-16xy9.mongodb.net/datos?retryWrites=true'
 mongoose.connect(URL, {useNewUrlParser:true}, (err)=>{
@@ -9,17 +10,19 @@ mongoose.connect(URL, {useNewUrlParser:true}, (err)=>{
 const app = express();
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json());
+app.use(cors())
 
 const Schema = mongoose.Schema;
 
 const peliSchema = new Schema({
-    titulo:String,
-    fecha: Date,
-    sinopsis: String,
-    caratula:String,
-    directores: {
-        type:[{name:String}]
-    }
+    Name: String,
+    Director: String,
+    Year: String,
+    Gendre: String,
+    Actors: String,
+    Sinopsis: String,
+    Poster: String,
+    Trailer: String
 })
 const Datos = mongoose.model('peliculas',peliSchema)
 
@@ -34,6 +37,12 @@ app.post('/admin/subida/aceptado',(req,res)=>{
 })
 app.get('/admin/peliculas',(req,res)=>{
     Datos.find().exec()
+    .then(datos => res.send((datos)))
+    .catch(err => res.status(409).send(err))
+})
+app.get('/admin/peliculas/:id',(req,res)=>{
+    const {id} = req.params
+    Datos.findById(id).exec()
     .then(datos => res.send((datos)))
     .catch(err => res.status(409).send(err))
 })
