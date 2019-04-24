@@ -22,7 +22,8 @@ const peliSchema = new Schema({
     Actors: String,
     Sinopsis: String,
     Poster: String,
-    Trailer: String
+    Trailer: String,
+    Video: String
 })
 const Datos = mongoose.model('peliculas',peliSchema)
 

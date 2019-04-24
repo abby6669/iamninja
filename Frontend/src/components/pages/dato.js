@@ -14,24 +14,20 @@ export default class Dato extends Component{
         .then(res => {this.setState({dato:res.data})})
         .catch(err => console.log(err))
     }
-    video(){
-        var video = this.state.dato.Video
-        return video
-    }
     render(){
         return(
             <div>
                 <Header />
-                {console.log(this.state.dato.Video)}
                 <Card
-                video={
-                    <ReactPlayer 
-                    url={require('../../videos/Ant_man.mp4')}
-                    width="100%"
-                    height="300px"
-                    controls={true}
-/>
-                }
+                video={this.state.dato.Video}
+//                 video={
+//                     <ReactPlayer 
+//                     url={require('../../videos/Ant_man.mp4')}
+//                     width="100%"
+//                     height="300px"
+//                     controls={true}
+// />
+//                 }
                
 
                 name={this.state.dato.Name}

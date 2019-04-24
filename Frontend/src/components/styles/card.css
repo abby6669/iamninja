@@ -18,6 +18,18 @@
     width: 100%;
     height: 300px;;
 }
+.tarjeta .boton{
+    padding: 20px;
+    background: none;
+    border: 2px solid #000;
+    margin: 5px 5px;
+    width: 20%;
+}
+.tarjeta .boton:hover{
+    transition: 0.5s;
+    background: #000;
+    color: #fff;
+}
 .tarjeta .tarjeta-body{
     padding: 10px;
     display: inline-block;
