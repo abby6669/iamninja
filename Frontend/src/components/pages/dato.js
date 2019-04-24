@@ -19,7 +19,7 @@ export default class Dato extends Component{
             <div>
                 <Header />
                 <Card
-                video={this.state.dato.Video}
+                
 //                 video={
 //                     <ReactPlayer 
 //                     url={require('../../videos/Ant_man.mp4')}
@@ -31,11 +31,14 @@ export default class Dato extends Component{
                
 
                 name={this.state.dato.Name}
-                year={this.state.dato.Year}
-                gendre={this.state.dato.Gendre}
                 director={this.state.dato.Director}
+                director={this.state.dato.Director}
+                year={this.state.dato.Year}
+                genre={this.state.dato.Gendre}
                 actors={this.state.dato.Actors}
                 sinopsis={this.state.dato.Sinopsis}
+                trailer={this.state.dato.Trailer}
+                movie={this.state.dato.Movie}
                 />
                 <Footer />
             </div>

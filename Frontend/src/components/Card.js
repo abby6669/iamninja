@@ -5,13 +5,13 @@ class Card extends Component{
         return(
             <div className="tarjeta">
                 <div className="video">
-                    <iframe src={this.props.video} allowFullScreen autoplay className="video"></iframe>
+                    <iframe src={this.props.movie} allowFullScreen autoplay className="video"></iframe>
 
                     {/* <video src={this.props.vid} className="video" ></video> */}
                     {/* <div>{this.props.video}</div> */}
                 </div>
-                <button className="boton-trailer boton" onClick="mostrar()">Trailer</button>
-                    <button className="boton-video boton">Video</button>
+                <button className="boton-trailer boton" id="trailer">Trailer</button>
+                    <button className="boton-video boton" id="video">Video</button>
                 <div className="tarjeta-body">
                     <h2 className="titulo">{this.props.name}</h2>
                     <ul>
