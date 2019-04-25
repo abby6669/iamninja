@@ -1,14 +1,14 @@
 {
-  "main.css": "/proyectoCintaRoja/static/css/main.e3a2f481.chunk.css",
-  "main.js": "/proyectoCintaRoja/static/js/main.a93e26fb.chunk.js",
-  "main.js.map": "/proyectoCintaRoja/static/js/main.a93e26fb.chunk.js.map",
-  "runtime~main.js": "/proyectoCintaRoja/static/js/runtime~main.f2298c22.js",
-  "runtime~main.js.map": "/proyectoCintaRoja/static/js/runtime~main.f2298c22.js.map",
-  "static/js/2.43e9630a.chunk.js": "/proyectoCintaRoja/static/js/2.43e9630a.chunk.js",
-  "static/js/2.43e9630a.chunk.js.map": "/proyectoCintaRoja/static/js/2.43e9630a.chunk.js.map",
-  "index.html": "/proyectoCintaRoja/index.html",
-  "precache-manifest.ac8ac6454a8f4e3cce63b406d034ad7b.js": "/proyectoCintaRoja/precache-manifest.ac8ac6454a8f4e3cce63b406d034ad7b.js",
-  "service-worker.js": "/proyectoCintaRoja/service-worker.js",
-  "static/css/main.e3a2f481.chunk.css.map": "/proyectoCintaRoja/static/css/main.e3a2f481.chunk.css.map",
-  "static/media/logo.png": "/proyectoCintaRoja/static/media/logo.b1df1e07.png"
+  "main.css": "/static/css/main.62a2ebeb.chunk.css",
+  "main.js": "/static/js/main.f0ad2063.chunk.js",
+  "main.js.map": "/static/js/main.f0ad2063.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.873faf11.chunk.js": "/static/js/2.873faf11.chunk.js",
+  "static/js/2.873faf11.chunk.js.map": "/static/js/2.873faf11.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.1e67599f3a7c330a6843ff1813f595a6.js": "/precache-manifest.1e67599f3a7c330a6843ff1813f595a6.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.62a2ebeb.chunk.css.map": "/static/css/main.62a2ebeb.chunk.css.map",
+  "static/media/logo.png": "/static/media/logo.b1df1e07.png"
 }
