@@ -4,6 +4,7 @@ import '../styles/cards.css'
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 import Cards from '../Cards'
+import '../styles/Home.css'
 class Home extends Component{
     state={
         datos:[]
