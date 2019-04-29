@@ -5,7 +5,7 @@ class Footer extends Component{
         return(
             <div className="footer"> 
                 <div className="copyright">
-                    <p>&#169; Copyright 2019 - Moshe Shabes</p>
+                    <p>&#169; Copyright 2019 - Moshe Shabes y Abby Littman</p>
                 </div>
                 <div className="redes-sociales">
                     <a className="facebook" target="_blank"><i className="fab fa-facebook-square"></i></a>

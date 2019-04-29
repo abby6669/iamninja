@@ -28,7 +28,7 @@ const peliSchema = new Schema({
 const Datos = mongoose.model('peliculas',peliSchema)
 
 app.get('/admin/subida',(req,res)=>{
-    res.sendFile(__dirname + "/partials/subida.html")
+    res.sendFile(__dirname + "/subida.html")
 })
 app.post('/admin/subida/aceptado',(req,res)=>{
     var data = new Datos(req.body)
