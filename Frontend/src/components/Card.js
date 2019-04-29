@@ -19,10 +19,10 @@ class Card extends Component{
                 <div className="tarjeta-body">
                     <h2 className="titulo">{this.props.name}</h2>
                     <ul>
-                        <li className="year"><span className="tema">Año de lanzamiento:</span>  {this.props.year}</li>
-                        <li className="genre"><span className="tema">Género:</span> {this.props.genre}</li>
+                        <li className="year"><span className="tema">Release year:</span>  {this.props.year}</li>
+                        <li className="genre"><span className="tema">Gender:</span> {this.props.genre}</li>
                         <li className="director"><span className="tema">Director: </span>{this.props.director}</li>
-                        <li className="actors"><span className="tema">Actores:</span> {this.props.actors}</li>
+                        <li className="actors"><span className="tema">Actors:</span> {this.props.actors}</li>
                         <li className="sinopsis"><span className="tema">Sinopsis:</span> {this.props.sinopsis}</li>
                     </ul>
                 </div>
