@@ -33,7 +33,7 @@ app.get('/admin/subida',(req,res)=>{
 app.post('/admin/subida/aceptado',(req,res)=>{
     var data = new Datos(req.body)
     data.save()
-    .then(res.sendFile(__dirname+'/partials/aceptado.html'))
+    .then(res => res.send('aceptado'))
     .catch(err => res.status(409).send(err))
 })
 app.get('/admin/peliculas',(req,res)=>{
